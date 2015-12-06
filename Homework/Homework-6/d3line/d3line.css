@@ -1,0 +1,68 @@
+body { font: 15px Helvetica;}
+
+path {
+    stroke: #5ab4ac;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.crosshair_circle {
+         fill: white;
+         stroke: steelblue;
+         stroke-width: 2px;
+     }
+
+ .zeroline {
+     fill: none;
+     stroke: blue;
+     stroke-width: 0.5px;
+     stroke-dasharray: 5 5;
+ }
+
+ .zerolinetext {
+     fill: black;
+     font: 15px Helvetica;
+ }
+
+ .overlay {
+     fill: none;
+     stroke: none;
+     pointer-events: all;
+ }
+
+ .crosshair {
+     fill: none;
+     stroke: steelblue;
+     stroke-width: 0.5px;
+ }
+
+ #divdate {
+   display: none;
+   position: absolute;
+   width: 80px;
+   height: 20px;
+   line-height: 20px;
+   color: white;
+   background-color: black;
+
+   /* rotate div 90 degrees */
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+
+#divtemp {
+   display: none;
+   /*position: absolute;*/
+   width: 50px;
+   color: white;
+   background-color: black;
+   }
