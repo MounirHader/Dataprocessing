@@ -1,0 +1,20 @@
+.datamaps-legend {
+  width:400px;
+  left:490px;
+  font-size: 12,5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#source {
+  font-family:Palatino Linotype, "Book Antiqua", Palatino, serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+#pieChart {
+  /*top: 1200px*/
+  left:0px;
+  /*height:1000px;*/
+  position: absolute;
+  background-color: lightblue;
+}
